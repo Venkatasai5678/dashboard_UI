@@ -6,6 +6,7 @@ const CustomerDetails = () => {
      const [cities,setCities] = useState([]);
 const [customers, setCustomers] = useState([]);
      const [showCustomerID, setShowCustomerID] = useState(false);
+     const [showCustomerI1D, setSh1owCustomerID] = useState(false);
 
 const [formData, setFormData] = useState({
     CustomerID: "",
