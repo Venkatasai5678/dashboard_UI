@@ -16,6 +16,8 @@ const Header = () => (
  <Link className="nav-link mx-3" to="/memoexample">memoexample</Link>
  <Link className="nav-link mx-3" to="/Reducerhook">Reducerhook</Link>
  <Link className="nav-link mx-3" to="/ApexchartsBarchart">ApexchartsBarchart</Link>
+ <Link className="nav-link mx-3" to="/Login">Login</Link>
+ 
 
  
 

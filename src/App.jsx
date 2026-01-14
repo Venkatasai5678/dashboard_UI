@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Memoexample from "./pages/memoexample";
 import { createContext } from "react";
  import ApexchartsBarchart  from "./pages/ApexchartsBarchart";
+import Login from "./pages/Login";
 
 function App() {
  
@@ -27,6 +28,9 @@ function App() {
              <Route path="memoexample" element={<Memoexample />} />
    
             <Route path="ApexchartsBarchart" element={<ApexchartsBarchart />} />
+   <Route path="Login" element={<Login />} />
+
+            
         </Route>
       </Routes>
     </BrowserRouter>
